@@ -1,10 +1,10 @@
 const config = {
 	"max-vms": "10", // set this to the amount of vms your api key says its allowed to create. changing this to be higher than your api key will not work
-	"start_url": "https://z-kit.net/vm-landing.html", // url to open when the vm starts
+	"start_url": "https://zxs.netlify.app", // url to open when the vm starts
 
 	"timeout": {
-		"main": 900, // time until the vm is terminated in seconds
-		"afk": 120, // if the user is afk for this time, the vm will be terminated
+		"main": 600, // time until the vm is terminated in seconds
+		"afk": 60, // if the user is afk for this time, the vm will be terminated
 		"offline": 5, // if the vm is offline for this time, the vm will be terminated
 		"warning": 60 // show a warning when this much time is left
 	},
